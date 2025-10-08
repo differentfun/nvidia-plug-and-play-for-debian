@@ -27,7 +27,6 @@ This repository provides a single Bash script, `install_nvidia_drivers_from_repo
 
 ## Notes
 - The script runs in non-interactive mode and will automatically answer `apt` prompts.
-- Messages printed by the script are in Italian.
 - If `nvidia-smi` fails immediately after installation, reboot and try again.
 - The script touches GRUB, initramfs, and adds files under `/etc/modprobe.d`, so keep the generated backups if you need to revert.
 - Keep the generated `/etc/X11/xorg.conf.backup.*` file if you need to restore your previous configuration.
